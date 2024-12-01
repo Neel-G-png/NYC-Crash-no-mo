@@ -20,19 +20,14 @@ from functools import partial
 from sodapy import Socrata
 import math
 import requests
-from dotenv import load_dotenv
-import os
 from datetime import date
-
-# Load the .env file
-load_dotenv()
 
 # Set Streamlit page configuration
 st.set_page_config(layout="wide")
 
 # Access environment variables
-NYC_APY_TOKEN = os.getenv("NYC_APY_TOKEN")
-WEATHER_API_TOKEN = os.getenv("WEATHER_API_TOKEN")
+NYC_APY_TOKEN = st.secrets["NYC_API_TOKEN"]
+WEATHER_API_TOKEN = st.secrets["WEATHER_API_TOKEN"]
 # Month,Day,hour,SPEED,school_count,park_count,MeanTemp,MinTemp,MaxTemp,DewPoint,Percipitation,WindSpeed,MaxSustainedWind,Rain,SnowDepth,SnowIce,NUMBER OF PERSONS INJURED,NUMBER OF PERSONS KILLED,Accident Severity,numIntersections
 severity = {0: 'Extreme Hot Spot', 1: 'Currently Safe', 1: 'Potential Hot Spot', 3: 'Hot Spot'}
 
