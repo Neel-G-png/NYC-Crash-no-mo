@@ -6,7 +6,7 @@
 
 ---
 
-`![Landing Screen](images/og_screen.png)`
+![Landing Screen](images/og_screen.png)
 
 ---
 
@@ -69,13 +69,13 @@ The project’s insights are visualized through an interactive dashboard built w
 1. **Real-Time Traffic Heatmap**:
    - Displays real-time traffic conditions, including congestion and average speed.
    - Enables users to explore dynamic traffic conditions for targeted analysis.
-     `![Real-Time Traffic Heatmap](images/traffic_heatmap.png)`
+     ![Real-Time Traffic Heatmap](images/traffic_heatmap.png)
 
 2. **Historical Crash Heatmap**:
    - Visualizes past accident data, highlighting areas with higher crash densities.
    - Enhances understanding of long-term trends and high-risk zones.
    - **Screenshot Placeholder: Insert historical crash heatmap screenshot here**  
-     `![Historical Crash Heatmap](images/crash_heatmap.png)`
+     ![Historical Crash Heatmap](images/crash_heatmap.png)
 
 3. **Dynamic Crash Hotspot Prediction**:
    - Uniquely considers road network graph data, including intersection density, for dynamic predictions.
@@ -84,7 +84,7 @@ The project’s insights are visualized through an interactive dashboard built w
 4. **Interactive Dashboard**:
    - Users can dynamically toggle map views and adjust conditions like weather or traffic density to refine predictions.
    - A clean, easy to understand dashboard will be created specifically for the data in focus on the data
-     `![Interactive Dashboard](images/Dashboard.png)`
+     ![Interactive Dashboard](images/Dashboard.png)
 
 5. **Customizable Queries**:
    - Allows users to explore how factors like rain and high traffic influence accident probabilities.
